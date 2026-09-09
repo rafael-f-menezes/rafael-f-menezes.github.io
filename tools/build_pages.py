@@ -143,7 +143,7 @@ pages["research.html"] = head("Research", "Research projects: lithium-sulfur spe
     <p>Lithium-sulfur cells promise about three times the energy density of today's lithium-ion packs from an element that is cheap and abundant. The catch is the chemistry. Sulfur passes through a cascade of soluble polysulfides on its way to Li<sub>2</sub>S, and those intermediates leave the cathode, shuttle to the anode, and quietly destroy the cell.</p>
     <p>I use a hybrid molecular dynamics/Monte Carlo approach to work out which species exist in the electrolyte at each state of charge, and pair that with quantum-chemical predictions of their vibrational fingerprints so they can be identified in operando infrared experiments. The simulated speciation agrees closely with what the experiments see.</p>
   </div>
-  <figure class="media dark">{video("lis_speciation", 314, 560)}<figcaption>Hybrid MD/Monte Carlo snapshot of polysulfides in a Li-S electrolyte.</figcaption></figure>
+  <figure class="media dark">{video("lis_speciation", 314, 560, "tall")}<figcaption>Hybrid MD/Monte Carlo snapshot of polysulfides in a Li-S electrolyte.</figcaption></figure>
 </article>
 
 <article class="project" id="cei">
@@ -152,7 +152,7 @@ pages["research.html"] = head("Research", "Research projects: lithium-sulfur spe
     <p>The interface is where the battery magic happens. On the anode, a passivating film forms during the first cycles and protects the electrode afterwards. A similar film grows on the cathode, and it is far less understood: how it forms, what it is made of, and how it changes with the electrolyte.</p>
     <p>I combine reactive molecular dynamics with X-ray spectroscopy to follow the cathode-electrolyte interphase as it forms. The clip shows a ReaxFF simulation of a next-generation electrolyte reacting at a lithium manganese oxide surface. Understanding this film is central to fixing capacity fade and extending cycle life, which was the subject of our <em>Advanced Energy Materials</em> paper on Mn dissolution.</p>
   </div>
-  <figure class="media dark">{video("cei_reaxff", 360, 812)}<figcaption>Reactive molecular dynamics of interphase formation on LiMn<sub>2</sub>O<sub>4</sub>.</figcaption></figure>
+  <figure class="media dark">{video("cei_reaxff", 360, 812, "tall")}<figcaption>Reactive molecular dynamics of interphase formation on LiMn<sub>2</sub>O<sub>4</sub>.</figcaption></figure>
 </article>
 
 <article class="project" id="edl">
