@@ -4,7 +4,7 @@
 The generated HTML is committed; this script only keeps the nav/footer consistent across pages."""
 import os
 
-SITE = "https://res07.github.io"
+SITE = "https://rafael-f-menezes.github.io"
 NAV = [("index.html", "About"), ("research.html", "Research"), ("publications.html", "Publications"),
        ("animations.html", "Animations"), ("outreach.html", "Outreach"), ("assets/cv/Rafael_Ferreira_de_Menezes_CV.pdf", "CV (PDF)")]
 FONTS = "https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap"
@@ -55,7 +55,7 @@ def head(title, desc, page, og_image="assets/img/headshot.jpg"):
 FOOT = """</main>
 <footer class="site-footer"><div class="wrap">
   <span>Rafael Ferreira de Menezes · University of Colorado Boulder · Washington, DC</span>
-  <span><a href="mailto:ferreira.rafaeldemenezes@gmail.com">Email</a> · <a href="https://scholar.google.com/citations?user=69vW21YAAAAJ&amp;hl=en">Google Scholar</a> · <a href="https://orcid.org/0000-0002-4908-3391">ORCID</a> · <a href="https://www.linkedin.com/in/rafael-ferreira-de-menezes/">LinkedIn</a> · <a href="https://github.com/RES07">GitHub</a></span>
+  <span><a href="mailto:ferreira.rafaeldemenezes@gmail.com">Email</a> · <a href="https://scholar.google.com/citations?user=69vW21YAAAAJ&amp;hl=en">Google Scholar</a> · <a href="https://orcid.org/0000-0002-4908-3391">ORCID</a> · <a href="https://www.linkedin.com/in/rafael-ferreira-de-menezes/">LinkedIn</a> · <a href="https://github.com/rafael-f-menezes">GitHub</a></span>
 </div></footer>
 <script src="assets/js/main.js"></script>
 </body>
@@ -72,7 +72,7 @@ LINKS = "\n".join([
     link("scholar", "https://scholar.google.com/citations?user=69vW21YAAAAJ&amp;hl=en", "Google Scholar"),
     link("orcid", "https://orcid.org/0000-0002-4908-3391", "ORCID"),
     link("linkedin", "https://www.linkedin.com/in/rafael-ferreira-de-menezes/", "LinkedIn"),
-    link("github", "https://github.com/RES07", "GitHub"),
+    link("github", "https://github.com/rafael-f-menezes", "GitHub"),
 ])
 
 def video(name, w, h, cls="", poster=None):
