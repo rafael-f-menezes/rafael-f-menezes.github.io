@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Animations</title>
+<meta name="description" content="Short teaching animations on battery operation, molecular dynamics, DFT, TDDFT, the radial distribution function, and the electric double layer.">
+<meta property="og:title" content="Animations">
+<meta property="og:description" content="Short teaching animations on battery operation, molecular dynamics, DFT, TDDFT, the radial distribution function, and the electric double layer.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://res07.github.io/animations.html">
+<meta property="og:image" content="https://res07.github.io/assets/video/posters/lib_battery.jpg">
+<link rel="canonical" href="https://res07.github.io/animations.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="index.html">Rafael Ferreira de Menezes</a>
+  <nav class="main" aria-label="Main">
+    <a href="index.html">About</a><a href="research.html">Research</a><a href="publications.html">Publications</a><a href="animations.html" aria-current="page">Animations</a><a href="outreach.html">Outreach</a><a href="assets/cv/Rafael_Ferreira_de_Menezes_CV.pdf">CV (PDF)</a>
+    <button class="theme-btn" type="button" aria-label="Toggle color theme">Theme</button>
+  </nav>
+</div></header>
+<main id="main" class="wrap">
+
+<h1>Animations</h1>
+<p class="lede muted">Short explainers I made for lectures and talks, rendered with matplotlib. They play automatically while on screen and pause when scrolled away. Feel free to use them in your own teaching with attribution.</p>
+<div class="clips">
+<figure class="clip"><video class="" muted loop playsinline preload="none" poster="assets/video/posters/lib_battery.jpg" data-src="assets/video/lib_battery.mp4" width="1080" height="560" aria-label="lib battery animation"></video><figcaption><h3>Lithium-ion battery: one full cycle</h3><p>Lithium leaves the graphite, crosses the separator, and slots between the NMC oxide slabs while the electrons take the long way through the external circuit. Then the voltage reverses and everything goes back. Nothing but lithium moves, which is why the cell can do this thousands of times.</p></figcaption></figure>
+<figure class="clip"><video class="" muted loop playsinline preload="none" poster="assets/video/posters/lis_battery.jpg" data-src="assets/video/lis_battery.mp4" width="1080" height="560" aria-label="lis battery animation"></video><figcaption><h3>Lithium-sulfur battery: discharge</h3><p>Same cell geometry, different chemistry. The lithium-metal anode is consumed as it works, and sulfur in the cathode steps through the polysulfide cascade from S<sub>8</sub> to Li<sub>2</sub>S. The small clusters drifting toward the anode are the polysulfide shuttle, the central problem in Li-S batteries.</p></figcaption></figure>
+<figure class="clip"><video class="" muted loop playsinline preload="none" poster="assets/video/posters/rdf_explainer.jpg" data-src="assets/video/rdf_explainer.mp4" width="1080" height="540" aria-label="rdf explainer animation"></video><figcaption><h3>Radial distribution function g(r)</h3><p>How the probability of finding a neighbor at distance r builds up shell by shell around a reference atom, and why the curve plateaus at 1 in a liquid.</p></figcaption></figure>
+<figure class="clip"><video class="" muted loop playsinline preload="none" poster="assets/video/posters/edl_explainer.jpg" data-src="assets/video/edl_explainer.mp4" width="1080" height="540" aria-label="edl explainer animation"></video><figcaption><h3>Electric double layer</h3><p>The Gouy-Chapman-Stern picture: a compact Stern layer of ions at the electrode, then a diffuse layer where the potential decays over a Debye length. The scrubber highlights which ions sit at each distance.</p></figcaption></figure>
+<figure class="clip"><video class="" muted loop playsinline preload="none" poster="assets/video/posters/md_explainer.jpg" data-src="assets/video/md_explainer.mp4" width="1080" height="540" aria-label="md explainer animation"></video><figcaption><h3>Molecular dynamics</h3><p>The whole method in one loop: positions and velocities, forces from the potential, a velocity-Verlet update, advance time, repeat. The kinetic energy trace shows equilibration and then fluctuation about its mean.</p></figcaption></figure>
+<figure class="clip"><video class="" muted loop playsinline preload="none" poster="assets/video/posters/dft_explainer.jpg" data-src="assets/video/dft_explainer.mp4" width="1080" height="540" aria-label="dft explainer animation"></video><figcaption><h3>Density functional theory</h3><p>The Kohn-Sham self-consistent field cycle. A guess density builds an effective potential, the Kohn-Sham equations return a new density, and the loop repeats until the energy stops changing.</p></figcaption></figure>
+<figure class="clip"><video class="" muted loop playsinline preload="none" poster="assets/video/posters/tddft_explainer.jpg" data-src="assets/video/tddft_explainer.mp4" width="1080" height="540" aria-label="tddft explainer animation"></video><figcaption><h3>Time-dependent DFT</h3><p>Linear-response TDDFT on the same molecule. A weak oscillating field scans across photon energies; where it hits an excitation the density responds strongly and a peak grows in the absorption spectrum.</p></figcaption></figure>
+</div>
+</main>
+<footer class="site-footer"><div class="wrap">
+  <span>Rafael Ferreira de Menezes · University of Colorado Boulder · Washington, DC</span>
+  <span><a href="mailto:ferreira.rafaeldemenezes@gmail.com">Email</a> · <a href="https://scholar.google.com/citations?user=69vW21YAAAAJ&amp;hl=en">Google Scholar</a> · <a href="https://orcid.org/0000-0002-4908-3391">ORCID</a> · <a href="https://www.linkedin.com/in/rafael-ferreira-de-menezes/">LinkedIn</a> · <a href="https://github.com/RES07">GitHub</a></span>
+</div></footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

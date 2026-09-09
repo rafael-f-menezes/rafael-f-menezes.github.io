@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research</title>
+<meta name="description" content="Research projects: lithium-sulfur speciation, cathode-electrolyte interphase, electric double layers, hard carbon anodes, and machine-learned interatomic potentials.">
+<meta property="og:title" content="Research">
+<meta property="og:description" content="Research projects: lithium-sulfur speciation, cathode-electrolyte interphase, electric double layers, hard carbon anodes, and machine-learned interatomic potentials.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://res07.github.io/research.html">
+<meta property="og:image" content="https://res07.github.io/assets/img/headshot.jpg">
+<link rel="canonical" href="https://res07.github.io/research.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="index.html">Rafael Ferreira de Menezes</a>
+  <nav class="main" aria-label="Main">
+    <a href="index.html">About</a><a href="research.html" aria-current="page">Research</a><a href="publications.html">Publications</a><a href="animations.html">Animations</a><a href="outreach.html">Outreach</a><a href="assets/cv/Rafael_Ferreira_de_Menezes_CV.pdf">CV (PDF)</a>
+    <button class="theme-btn" type="button" aria-label="Toggle color theme">Theme</button>
+  </nav>
+</div></header>
+<main id="main" class="wrap">
+
+<h1>Research</h1>
+<p class="lede muted">The thread through all of it: what happens at the interface between an electrode and an electrolyte while a battery is running, and how to see it both in simulation and at a synchrotron. Every figure and clip below is descriptive; the underlying data live in the papers on the <a href="publications.html">publications page</a>.</p>
+
+<article class="project" id="lis">
+  <div>
+    <h2>Speciation in lithium-sulfur batteries</h2>
+    <p>Lithium-sulfur cells promise about three times the energy density of today's lithium-ion packs from an element that is cheap and abundant. The catch is the chemistry. Sulfur passes through a cascade of soluble polysulfides on its way to Li<sub>2</sub>S, and those intermediates leave the cathode, shuttle to the anode, and quietly destroy the cell.</p>
+    <p>I use a hybrid molecular dynamics/Monte Carlo approach to work out which species exist in the electrolyte at each state of charge, and pair that with quantum-chemical predictions of their vibrational fingerprints so they can be identified in operando infrared experiments. The simulated speciation agrees closely with what the experiments see.</p>
+  </div>
+  <figure class="media dark"><video class="" muted loop playsinline preload="none" poster="assets/video/posters/lis_speciation.jpg" data-src="assets/video/lis_speciation.mp4" width="314" height="560" aria-label="lis speciation animation"></video><figcaption>Hybrid MD/Monte Carlo snapshot of polysulfides in a Li-S electrolyte.</figcaption></figure>
+</article>
+
+<article class="project" id="cei">
+  <div>
+    <h2>Cathode-electrolyte interphase in lithium-ion batteries</h2>
+    <p>The interface is where the battery magic happens. On the anode, a passivating film forms during the first cycles and protects the electrode afterwards. A similar film grows on the cathode, and it is far less understood: how it forms, what it is made of, and how it changes with the electrolyte.</p>
+    <p>I combine reactive molecular dynamics with X-ray spectroscopy to follow the cathode-electrolyte interphase as it forms. The clip shows a ReaxFF simulation of a next-generation electrolyte reacting at a lithium manganese oxide surface. Understanding this film is central to fixing capacity fade and extending cycle life, which was the subject of our <em>Advanced Energy Materials</em> paper on Mn dissolution.</p>
+  </div>
+  <figure class="media dark"><video class="" muted loop playsinline preload="none" poster="assets/video/posters/cei_reaxff.jpg" data-src="assets/video/cei_reaxff.mp4" width="360" height="812" aria-label="cei reaxff animation"></video><figcaption>Reactive molecular dynamics of interphase formation on LiMn<sub>2</sub>O<sub>4</sub>.</figcaption></figure>
+</article>
+
+<article class="project" id="edl">
+  <div>
+    <h2>Electric double layer in aqueous electrolytes</h2>
+    <p>Within a nanometer of a charged electrode the electric field is enormous, and that field decides which ions and molecules reach the surface and react. The double layer therefore controls the side reactions that limit aqueous batteries and electrocatalysts, yet its role in those reactions has received much less attention than it deserves.</p>
+    <p>These molecular dynamics simulations of an aqueous CsCl electrolyte show how charge arranges itself at a negatively and a positively charged graphene electrode. Watch the ions swap places and the water reorient as the sign of the surface charge flips.</p>
+  </div>
+  <figure class="media dark pair"><video class="" muted loop playsinline preload="none" poster="assets/video/posters/edl_negative.jpg" data-src="assets/video/edl_negative.mp4" width="370" height="406" aria-label="edl negative animation"></video><video class="" muted loop playsinline preload="none" poster="assets/video/posters/edl_positive.jpg" data-src="assets/video/edl_positive.mp4" width="400" height="440" aria-label="edl positive animation"></video><figcaption>Left: negatively charged electrode. Right: positively charged electrode.</figcaption></figure>
+</article>
+
+<article class="project" id="hardcarbon">
+  <div>
+    <h2>Hard carbon anodes for sodium-ion batteries</h2>
+    <p>Sodium-ion cells are the quiet workhorse option for grid storage, and hard carbon is their standard anode. The open question is how sodium fills the pores and defects of this disordered material as the cell charges, and how that depends on the way the carbon was made.</p>
+    <p>I build atomistic models of hard carbon by simulated annealing: heating and quenching thousands of carbon atoms until they settle into the curved, layered fragments seen in real samples. The resulting pore size and shape distributions feed the interpretation of X-ray scattering data in our <em>Small</em> paper on microstructure-dependent sodium storage.</p>
+  </div>
+  <figure class="media dark"><img src="assets/img/research/hardcarbon_anneal.png" alt="Three stages of a simulated annealing run generating a hard carbon model" width="1280" height="311" loading="lazy"><img src="assets/img/research/hardcarbon_thumb.jpg" alt="Slice through a hard carbon model" loading="lazy"><figcaption>Simulated annealing (temperature ramp, then quench) of a hard carbon model, and a slice through the result.</figcaption></figure>
+</article>
+
+<article class="project" id="mlip">
+  <div>
+    <h2>Machine-learned interatomic potentials</h2>
+    <p>Quantum chemistry is accurate but slow; classical force fields are fast but rigid. Machine-learned potentials trained on quantum-chemical data close that gap. During a 2024 internship at Lawrence Livermore National Laboratory I worked on such potentials for lithium-ion battery electrolytes, so that solvation and reactivity can be simulated at the size and time scales a real interface demands.</p>
+  </div>
+  <figure class="media"><video class="" muted loop playsinline preload="none" poster="assets/video/posters/md_explainer.jpg" data-src="assets/video/md_explainer.mp4" width="1080" height="540" aria-label="md explainer animation"></video><figcaption>Molecular dynamics in one loop: forces, velocity-Verlet update, repeat. From the <a href="animations.html">animations page</a>.</figcaption></figure>
+</article>
+</main>
+<footer class="site-footer"><div class="wrap">
+  <span>Rafael Ferreira de Menezes · University of Colorado Boulder · Washington, DC</span>
+  <span><a href="mailto:ferreira.rafaeldemenezes@gmail.com">Email</a> · <a href="https://scholar.google.com/citations?user=69vW21YAAAAJ&amp;hl=en">Google Scholar</a> · <a href="https://orcid.org/0000-0002-4908-3391">ORCID</a> · <a href="https://www.linkedin.com/in/rafael-ferreira-de-menezes/">LinkedIn</a> · <a href="https://github.com/RES07">GitHub</a></span>
+</div></footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

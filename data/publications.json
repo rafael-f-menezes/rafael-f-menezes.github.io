@@ -1,0 +1,378 @@
+{
+ "meta": {
+  "scholar": "https://scholar.google.com/citations?user=69vW21YAAAAJ&hl=en",
+  "orcid": "https://orcid.org/0000-0002-4908-3391",
+  "metrics": {
+   "citations": 119,
+   "h_index": 6,
+   "as_of": "September 2026"
+  },
+  "self_patterns": [
+   "de Menezes, R. F.",
+   "Ferreira de Menezes, R."
+  ]
+ },
+ "publications": [
+  {
+   "type": "article",
+   "year": 2026,
+   "authors": [
+    "Lietzke, E. E.",
+    "Saeb, D.",
+    "Aldrich, E. C.",
+    "de Menezes, R. F.",
+    "Bruce, K. D.",
+    "Sprenger, K. G."
+   ],
+   "title": "Uncovering the biological mechanisms of TREM2 with molecular simulations: a comprehensive review and perspective",
+   "venue": "Progress in Biophysics and Molecular Biology",
+   "detail": "201, 189-211",
+   "doi": "10.1016/j.pbiomolbio.2026.06.002",
+   "tags": [
+    "MD",
+    "biophysics"
+   ]
+  },
+  {
+   "type": "article",
+   "year": 2025,
+   "authors": [
+    "Pimenta, B. G. A.",
+    "Vasconcelos, R. C.",
+    "de Oliveira Neto, P. H.",
+    "de Menezes, R. F.",
+    "Sprenger, K. G.",
+    "Gargano, R."
+   ],
+   "title": "Stability and induced magnetism by edge modification of HfS2 nanoribbons",
+   "venue": "Langmuir",
+   "detail": "41(31), 21066-21072",
+   "doi": "10.1021/acs.langmuir.5c02830",
+   "tags": [
+    "DFT",
+    "2D materials"
+   ]
+  },
+  {
+   "type": "article",
+   "year": 2025,
+   "authors": [
+    "de Oliveira, R. M.",
+    "de Sousa, L. N.",
+    "Gregorio, A. V.",
+    "de Menezes, R. F.",
+    "Sprenger, K. G.",
+    "de Macedo, L. G. M.",
+    "Pirani, F.",
+    "Gargano, R."
+   ],
+   "title": "The interatomic bond between Cd and noble gas atoms: the nature of the intermolecular forces, the stability of the adducts, their spectroscopic and thermodynamical properties",
+   "venue": "Computational and Theoretical Chemistry",
+   "detail": "1249, 115238",
+   "doi": "10.1016/j.comptc.2025.115238",
+   "tags": [
+    "quantum chemistry"
+   ]
+  },
+  {
+   "type": "article",
+   "year": 2025,
+   "authors": [
+    "Kitsu Iglesias, L.",
+    "Marks, S. D.",
+    "Rampal, N.",
+    "Antonio, E. N.",
+    "Ferreira de Menezes, R.",
+    "Zhang, L.",
+    "Olds, D.",
+    "Weitzner, S. E.",
+    "Sprenger, K. G.",
+    "Wan, L. F.",
+    "Toney, M. F."
+   ],
+   "title": "Microstructure-dependent sodium storage mechanisms in hard carbon anodes",
+   "venue": "Small",
+   "detail": "21(30), 2505561",
+   "doi": "10.1002/smll.202505561",
+   "tags": [
+    "Na-ion",
+    "MD",
+    "XRD"
+   ]
+  },
+  {
+   "type": "article",
+   "year": 2025,
+   "authors": [
+    "de Araujo Oliveira, A. L.",
+    "Medeiros, A. K.",
+    "Oliveira, R. M.",
+    "Ferreira de Menezes, R.",
+    "Sprenger, K. G.",
+    "Pirani, F.",
+    "Gargano, R."
+   ],
+   "title": "Ammonia-noble gas systems: insight on the nature of the intermolecular interaction, spectroscopic and thermodynamical properties",
+   "venue": "Advances in Quantum Chemistry",
+   "detail": "92, 121-139",
+   "doi": "10.1016/bs.aiq.2025.06.004",
+   "tags": [
+    "quantum chemistry"
+   ]
+  },
+  {
+   "type": "article",
+   "year": 2025,
+   "authors": [
+    "Ou, W.",
+    "Marks, S. D.",
+    "de Menezes, R. F.",
+    "He, R.",
+    "Zhang, Z.",
+    "Sindt, C.",
+    "Thurston, J.",
+    "Jaye, C.",
+    "Cowie, B.",
+    "Thomsen, L.",
+    "Zhuo, Z.",
+    "Guo, J.",
+    "Yang, W.",
+    "Dong, Z.",
+    "Tenent, R.",
+    "Sprenger, K. G.",
+    "Toney, M. F."
+   ],
+   "title": "Unveiling the mechanism of Mn dissolution through a dynamic cathode-electrolyte interphase on LiMn2O4",
+   "venue": "Advanced Energy Materials",
+   "detail": "15(22), 2404652",
+   "doi": "10.1002/aenm.202404652",
+   "tags": [
+    "Li-ion",
+    "CEI",
+    "XAS"
+   ]
+  },
+  {
+   "type": "article",
+   "year": 2025,
+   "authors": [
+    "He, R.",
+    "McDonough, L.",
+    "Seitz, L.",
+    "Ou, W.",
+    "Marks, S. D.",
+    "Ferreira de Menezes, R.",
+    "Allan-Cole, E.",
+    "Luo, H.",
+    "Toney, M. F.",
+    "Sprenger, K. G.",
+    "Zhou, M.",
+    "Tenent, R. C."
+   ],
+   "title": "In situ characterization of the oxidation behavior of carbonate-based electrolytes for lithium-ion batteries by scanning electrochemical microscopy",
+   "venue": "ACS Electrochemistry",
+   "detail": "1(4), 494-503",
+   "doi": "10.1021/acselectrochem.4c00106",
+   "tags": [
+    "Li-ion",
+    "electrolytes"
+   ]
+  },
+  {
+   "type": "article",
+   "year": 2025,
+   "authors": [
+    "de Jesus, G. C. C.",
+    "Vasconcelos, R. C.",
+    "do Vale, L. B.",
+    "de Menezes, R. F.",
+    "Sprenger, K. G.",
+    "Gargano, R."
+   ],
+   "title": "Electronic and magnetic properties of manganese bromide monolayers",
+   "venue": "Langmuir",
+   "detail": "41(9), 5877-5883",
+   "doi": "10.1021/acs.langmuir.4c04499",
+   "tags": [
+    "DFT",
+    "2D materials"
+   ]
+  },
+  {
+   "type": "article",
+   "year": 2024,
+   "authors": [
+    "de Oliveira, R. M.",
+    "Neta, M. J. M. B.",
+    "de Sousa Oliveira, J.",
+    "de Macedo, L. G. M.",
+    "de Menezes, R. F.",
+    "Pirani, F.",
+    "Gargano, R."
+   ],
+   "title": "Weakly bound mercury-noble gas adducts: strength, range and nature of the interaction, spectroscopic and thermodynamical properties",
+   "venue": "Computational and Theoretical Chemistry",
+   "detail": "1239, 114797",
+   "doi": "10.1016/j.comptc.2024.114797",
+   "tags": [
+    "quantum chemistry"
+   ]
+  },
+  {
+   "type": "article",
+   "year": 2023,
+   "authors": [
+    "de Macedo, L. G. M.",
+    "Negrão, C. A. B.",
+    "de Oliveira, R. M.",
+    "de Menezes, R. F.",
+    "Pirani, F.",
+    "Gargano, R."
+   ],
+   "title": "The van der Waals interactions in systems involving superheavy elements: the case of oganesson (Z = 118)",
+   "venue": "Physical Chemistry Chemical Physics",
+   "detail": "25(1), 633-645",
+   "doi": "10.1039/D2CP04456K",
+   "tags": [
+    "quantum chemistry"
+   ]
+  },
+  {
+   "type": "article",
+   "year": 2022,
+   "authors": [
+    "de Menezes, R. F.",
+    "Pirani, F.",
+    "Coletti, C.",
+    "de Macedo, L. G. M.",
+    "Gargano, R."
+   ],
+   "title": "Functionalized graphene-based quantum dots: promising adsorbents for CO, NO2, SO2, and NH3 pollutant gases",
+   "venue": "Materials Today Communications",
+   "detail": "31, 103426",
+   "doi": "10.1016/j.mtcomm.2022.103426",
+   "tags": [
+    "DFT",
+    "graphene"
+   ]
+  },
+  {
+   "type": "article",
+   "year": 2021,
+   "authors": [
+    "de Menezes, R. F.",
+    "de Macedo, L. G. M.",
+    "Martins, J. B. L.",
+    "Pirani, F.",
+    "Gargano, R."
+   ],
+   "title": "Investigation of strength and nature of the weak intermolecular bond in NH2 radical-noble gas atom adducts and evaluation of their basic spectroscopic features",
+   "venue": "Chemical Physics Letters",
+   "detail": "769, 138386",
+   "doi": "10.1016/j.cplett.2021.138386",
+   "tags": [
+    "quantum chemistry"
+   ]
+  },
+  {
+   "type": "preprint",
+   "year": 2026,
+   "authors": [
+    "White, K. P.",
+    "Wyatt, K. W.",
+    "Kerner, R. A.",
+    "Ferreira de Menezes, R.",
+    "Chaney, T. P.",
+    "Zhang, Z.",
+    "Radicchi, E.",
+    "Alphonso, N.",
+    "Levin, A. J.",
+    "Ladd, D. M.",
+    "Díaz, M. M.",
+    "Kitsu Iglesias, L.",
+    "Dayton, D. G.",
+    "Hoang, T.",
+    "Weadock, N. J.",
+    "Li, R.",
+    "De Angelis, F.",
+    "Sprenger, K. G.",
+    "Berry, J. J.",
+    "Toney, M. F."
+   ],
+   "title": "Solution speciation in lead iodide-based perovskite precursor inks",
+   "venue": "ChemRxiv",
+   "detail": "preprint",
+   "doi": "10.26434/chemrxiv.15006904/v1",
+   "tags": [
+    "perovskites",
+    "MD",
+    "X-ray scattering"
+   ]
+  },
+  {
+   "type": "abstract",
+   "year": 2026,
+   "authors": [
+    "Porter, J. M.",
+    "Landetta, J.",
+    "Diehl, B.",
+    "Maratos, J.",
+    "Ferreira de Menezes, R.",
+    "Sprenger, K.",
+    "Meyer, L.",
+    "Brow, R.",
+    "Colclasure, A. M."
+   ],
+   "title": "A quantitative infrared method for individual polysulfide speciation in lithium-sulfur electrolytes",
+   "venue": "ECS Meeting Abstracts",
+   "detail": "MA2026-01, 267",
+   "doi": "10.1149/ma2026-013267mtgabs",
+   "tags": [
+    "Li-S"
+   ]
+  },
+  {
+   "type": "abstract",
+   "year": 2024,
+   "authors": [
+    "Allan-Cole, E.",
+    "Garman, R.",
+    "Roberts, L.",
+    "Hartin, S.",
+    "Narasimhan, S.",
+    "Uselton, K.",
+    "de Menezes, R. F.",
+    "et al."
+   ],
+   "title": "Under pressure: exploring the link between uniform stack pressure and electrode microstructure to increase performance in extreme fast charging lithium-ion batteries",
+   "venue": "PRiME 2024, Joint International Meeting of ECS, ECSJ, and KECS",
+   "detail": "Honolulu, HI, Oct 2024",
+   "doi": null,
+   "tags": [
+    "Li-ion",
+    "XRD"
+   ]
+  },
+  {
+   "type": "abstract",
+   "year": 2024,
+   "authors": [
+    "Allan-Cole, E.",
+    "Garman, R.",
+    "Roberts, L.",
+    "Hartin, S.",
+    "Uselton, K.",
+    "de Menezes, R. F.",
+    "et al."
+   ],
+   "title": "Effects of uniform stack pressure as a function of electrode thickness in extreme fast charging lithium-ion batteries via operando X-ray diffraction",
+   "venue": "245th ECS Meeting",
+   "detail": "San Francisco, CA, May 2024",
+   "doi": null,
+   "tags": [
+    "Li-ion",
+    "XRD"
+   ]
+  }
+ ]
+}
